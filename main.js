@@ -89,7 +89,7 @@ function displayResults(weather) {
     alert('Warning! Temperature is high!');
   }
 
-  if (weather.main.temp < 0) {
+  if (weather.main.temp < 15) {
     alert('Warning! Temperature is low!');
   }
 }
